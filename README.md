@@ -32,17 +32,17 @@ This replication package is structured as follows:
 ```
 caching-pwa-replication-package
     .
-    |--- android-runner/      Android-runner framework to execute experiments.
+    |--- android-runner/            Android-runner framework to execute experiments.
     |
-    |--- automate_experiment/ Scripts to automate experiment execution
+    |--- automate_experiment/       Scripts to automate experiment execution
     |
-    |--- data_analysis/       The R scripts for plotting and assesing the extracted data (see below).
+    |--- data_analysis/             The R scripts for plotting and assesing the extracted data (see below).
     |
-    |--- extracted_PWA/       The extracted PWAs downloaded via a Google Chrome Extension - Save All Resources.
+    |--- extracted_PWA/             The extracted PWAs downloaded via a Google Chrome Extension - Save All Resources.
     |
-    |--- final_experiment_output/ Data from all 20 experiments
+    |--- final_experiment_output/   Data from all 20 experiments
     |
-    |--- raw_PWA/             RAW data of PWAs (.zip)	
+    |--- raw_PWA/                   RAW data of PWAs (.zip)	
     |
 ```
 
