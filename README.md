@@ -11,8 +11,8 @@ This study has been designed, developed, and reported by the following investiga
 
 The full dataset including raw data, mining scripts, and analysis R scripts produced during the study are available below.
 
-## How to cite the dataset
-If the dataset is helping your research, consider to cite it is as follows, thanks!
+## How to cite this study
+If this study is helping your research, consider to cite it is as follows, thanks!
 ```
 @inproceedings{MOBILESoft_Caching_PWA_2020,
   title={{Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps}},
