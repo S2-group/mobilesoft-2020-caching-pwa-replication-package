@@ -3,7 +3,7 @@
 This repository contains the replication package and dataset of the paper published at MOBILESoft 2020 with the title **Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps**
 
 This study has been designed, developed, and reported by the following investigators:
-- [Ivano Malavolta](https://www.ivanomalavolta.com/)  (Vrije Universiteit Amsterdam)
+- [Ivano Malavolta](http://www.ivanomalavolta.com/)  (Vrije Universiteit Amsterdam)
 - Katerina Chinnappan (Vrije Universiteit Amsterdam)
 - Lukas Jasmontas (Vrije Universiteit Amsterdam)
 - Sarthak Gupta (Vrije Universiteit Amsterdam)
