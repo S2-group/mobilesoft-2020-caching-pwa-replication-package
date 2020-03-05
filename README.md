@@ -1,78 +1,78 @@
-# Green Lab - Evaluating the Impact of Caching on the Energy Efficiency and Performance of Progressive WebApplications
-Project for Green Lab course
+# MOBILESoft 2020 - Caching PWA Replication Package
+
+This repository contains the replication package and dataset of the paper published at MOBILESoft 2020 with the title **Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps**
+
+This study has been designed, developed, and reported by the following investigators:
+- [Ivano Malavolta](https://www.ivanomalavolta.com/)  (Vrije Universiteit Amsterdam)
+- Katerina Chinnappan (Vrije Universiteit Amsterdam)
+- Lukas Jasmontas (Vrije Universiteit Amsterdam)
+- Sarthak Gupta (Vrije Universiteit Amsterdam)
+- Kaveh Ali Karam Soltany (Vrije Universiteit Amsterdam)
+
+The full dataset including raw data, mining scripts, and analysis R scripts produced during the study are available below.
+
+## How to cite the dataset
+If the dataset is helping your research, consider to cite it is as follows, thanks!
+```
+@inproceedings{MOBILESoft_Caching_PWA_2020,
+  title={{valuating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps}},
+  author={Ivano Malavolta and Katerina Chinnappan and Lukas Jasmontas and Sarthak Gupta and Kaveh Ali Karam Soltany},
+  booktitle = {7th IEEE/ACM International Conference on Mobile Software Engineering and Systems 2020},
+  year = {2020},
+  pages = {to appear},
+  numpages = {10},
+  url = {to appear}
+}
+```
 
 
-## Getting Started
+## Overview of the replication package
 
-Before executing the experiments, please have the following installed on your machine:
-
-* python2.x.x
-* Android Debug Bridge (adb)
-* Android SDK Tools (monkeyrunner)
-* python-lxml
-* Pluginbase (pip module)
-* http.server (pip module)
-
-Verify that all dependencies have been installed.
-
-Make sure the device is recognized:
+This replication package is structured as follows:
 ```
-adb devices
-```
-
-### Start localhost server
-
-
-Serve PWA direcory
-
-```
-cd PWA
-```
-```
-python -m SimpleHTTPServer 8000
-```
-PWA directory is now served at [0.0.0.0:8000](http://0.0.0.0:8000/)
-
-Start server to accept POST requests
-
-```
-cd PWA
-```
-```
-python3 server.py
+caching-pwa-replication-package
+    .
+    |--- PWA/       				The extracted PWAs downloaded via a Google Chrome Extension - Save All Resources.
+    |
+    |--- R-scripts/         		The R scripts for plotting and assesing the extracted data (see below).
+    |
+    |--- android-runner/   			Android-runner framework to execute experiments.
+    |
+    |--- final_experiment_output	Data from all 20 experiments
+    |
+    |--- raw_PWA					RAW data of PWAs (.zip)	
+    |
+    |--- Makefile 					Makefile to automate experiment execution
+    |
+    |--- counter.txt				helper for experiment execution
+    |
+    |--- filter_collect_results.py	filter experiment results
+    |
+    |--- pwa-names.txt				 helper for experiment execution
+    |
+    |--- pwa-output-file-names.txt	helper for experiment execution
 ```
 
-Server is now running: [0.0.0.0:8081](http://0.0.0.0:8081/)
+## Data analysis
 
-Connect mobile device to localhost server:
 ```
-adb reverse tcp:8081 tcp:8081
-```
-```
-adb reverse tcp:8000 tcp:8000
-```
-
-### Start experiments: generate experiments, filter results
-
-See available options:
-```
-make help
-```
-
-Start experiments, filter:
-```
-make experiment
+R_scripts
+    .
+	    |--- pwa_visualizations			Plot figures
+    |
+    |--- all_cpu_cached_values.csv		values for CPU while using cache
+    |
+    |--- all_cpu_nocached_values.csv	values for CPU while not using caching
+    |
+    |--- all_data.csv 					entire dataset
+    |
+    |--- all_pwa_load_times.csv			values for PWA load times	
+    |
+    |--- main.R							R script for plotting and assesing the dataset
+    |
+    |--- main_recent.R					slightly updated main.R	
 ```
 
-Final filtered results for each experiment can be found in:
-```
-FINAL_OUTPUT/experiment#/final_results
-```
+## License
 
-Generated, raw experiment output files can be found in:
-```
-android-runner/examples/batterystats/output/experiment#/PWA1.csv
-```
-```
-android-runner/examples/batterystats/output/experiment#/PWA2.csv
-```
+This software is licensed under the MIT License.
