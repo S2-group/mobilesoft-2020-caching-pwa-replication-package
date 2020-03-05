@@ -1,0 +1,2 @@
+/* aax response */
+apstag.bids({"slots":[{"targeting":["amzniid","amznp","amznsz","amznbid"],"amzniid":"IgzMp_Gj58lvQ5FaGJm3gMcAAAFtpiJdbgMAAAwDASl8moA","size":"728x90","crid":"182001217","meta":["slotID","mediaType","size"],"amznsz":"728x90","slotID":"leaderboard-1","amznp":"174hgxs","mediaType":"d","amznbid":"1joh3i8"}],"host":"https://aax-eu.amazon-adsystem.com","cfe":true,"ev":true,"cfn":"bao-csm/direct/csm_others.js","status":"ok","cb":"9267273402831570450332793"})

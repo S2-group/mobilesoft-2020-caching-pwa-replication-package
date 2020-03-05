@@ -1,0 +1,189 @@
+<experiment>
+  <configHash>e31045c97c5e331f8b2fe7881a29ff50</configHash>
+  <outputDir>/home/chinn501/ownCloud/code/GitHub/GreenLab_CachingPWA/android-runner/examples/batterystats/output/2019.10.16_022707/</outputDir>
+  <subjects>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/petlove/www.petlove.com.br/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/alibaba/www.alibaba.com/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/nylon/nylon.com/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/zumata/www.zumata.com/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/slate/slate.com/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/smashingmagazine/www.smashingmagazine.com/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/edgy/edgy.app/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/soundslice/www.soundslice.com/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/tourismus/www.nrw-tourismus.de/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+    <subject>
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/treebo/www.treebo.com/</path>
+      <browser>firefox</browser>
+      <aggregated>1</aggregated>
+    </subject>
+  </subjects>
+  <runsToRun/>
+  <runsDone>
+    <run runId="0">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/petlove/www.petlove.com.br/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="1">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/petlove/www.petlove.com.br/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="2">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/alibaba/www.alibaba.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="3">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/alibaba/www.alibaba.com/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="4">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/nylon/nylon.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="5">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/nylon/nylon.com/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="6">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/zumata/www.zumata.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="7">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/zumata/www.zumata.com/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="8">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/slate/slate.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="9">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/slate/slate.com/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="10">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/smashingmagazine/www.smashingmagazine.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="11">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/smashingmagazine/www.smashingmagazine.com/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="12">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/edgy/edgy.app/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="13">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/edgy/edgy.app/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="14">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/soundslice/www.soundslice.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="15">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/soundslice/www.soundslice.com/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="16">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/tourismus/www.nrw-tourismus.de/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="17">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/tourismus/www.nrw-tourismus.de/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+    <run runId="18">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/treebo/www.treebo.com/</path>
+      <browser>firefox</browser>
+      <runCount>1</runCount>
+    </run>
+    <run runId="19">
+      <device>pixel3</device>
+      <path>http://0.0.0.0:8000/treebo/www.treebo.com/</path>
+      <browser>firefox</browser>
+      <runCount>2</runCount>
+    </run>
+  </runsDone>
+</experiment>

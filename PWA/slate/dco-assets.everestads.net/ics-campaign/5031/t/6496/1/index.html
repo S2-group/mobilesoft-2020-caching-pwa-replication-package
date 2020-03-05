@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ad</title>
+    <!-- <script type="text/javascript" src="https://ads.everesttech.net/ads/static/local/AMOLibrary.js"></script> -->
+    <link rel="stylesheet" href="css/style.min.css">
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/tag1rnw.css"> -->
+    <script src="js/script.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      // amo.registerAttribute("backgroundImage", "IMAGE", "assets/MGMPark_300x250_Default.png");
+      // amo.registerClick("clickUrl", "https://www.parkmgm.com/en/booking/room-booking.html#/step1");
+    </script>
+    <style media="screen">
+      /* @font-face {
+          font-family: Gotham-Book;
+          src: url('Gotham-Book.woff') format("woff");
+      }
+      @font-face {
+          font-family: Gotham-Medium;
+          src: url('Gotham-Medium.woff') format("woff");
+      }
+      .gothamBook { font-family: Gotham-Book; }
+      .gothamMedium { font-family: Gotham-Medium; } */
+    </style>
+    <!--
+      Available Classes:-
+        For Images :-
+          .asset        -Image Center Align(Image can shrink according to the container but will expand beyond its original size)
+          .asset-top    -Image Top Center Align(Image can shrink according to the container but will expand beyond its original size)
+          .asset-left
+
+    -->
+    <style media="screen">
+      #ad {
+        width: inherit;
+        height: inherit;
+        font-family: "Trebuchet MS", Arial, sans-serif;
+        color: #fff;
+      }
+      #cta { background-color: transparent; }
+      #cta:hover { background-color: #fff; }
+    </style>
+  </head>
+  <body>
+    <div class="" id="ad">
+      <div id="productImage" class="asset"
+        data-image="productImage"
+        style="top:0px;
+          left:0px;
+          width:inherit;
+          height:inherit;">
+      </div>
+      <div id="backgroundImage" class="asset"
+        data-image="backgroundImage"
+        style="top:0px;
+          left:0px;
+          width:inherit;
+          height:inherit;">
+      </div>
+      <!-- <div id="ref" class="asset"
+        data-image="ref"
+        style="top:0px;
+          left:0px;
+          width:inherit;
+          height:inherit;">
+      </div> -->
+      <!-- <div id="description" class="text"
+        data-text="description"
+        data-style="text-align:center;"
+        style="top:163px;
+          left:15px;
+          width:268px;
+          height:30px;
+          font-size:13px;
+          line-height:15px;
+          -webkit-transition:opacity 1s ease-out 0.4s;
+          transition:opacity 1s ease-out 0.4s;
+          opacity:0;">
+      </div>
+      <div id="cta" class="text"
+        data-text="ctaText"
+        style="top:210px;
+          left:181px;
+          width:100px;
+          height:25px;
+          font-size:12px;
+          border:1px solid #fff;
+          color: !{ctaBtn};
+          -webkit-transition:opacity 1s ease-out 1s;
+          transition:opacity 1s ease-out 1s;
+          opacity:0;"
+          onmouseover="javascript:this.style.color='!{ctaBtnHover}';"
+          onmouseout="javascript:this.style.color='!{ctaBtn}';">
+      </div> -->
+      <div id="overlay" style="top:0px;left:0px;width:inherit;height:inherit;background-color:#fff;opacity:1;-webkit-transition:all ease .5s;transition:all ease .5s;"></div>
+
+    </div>
+    <!-- <div id="loadFont" style="width:0;height:0;overflow:hidden;">
+      <div style="font-family: 'myriad-pro',sans-serif;">myriad-pro</div>
+    </div> -->
+    <script type="text/javascript">
+      var adWidth = window.innerWidth;
+      var adHeight = window.innerHeight;
+      document.body.style.width = adWidth + 'px';
+      document.body.style.height = adHeight + 'px';
+      var ad = new Ad({
+        root: document.querySelector('#ad'),
+        width: adWidth,
+        height: adHeight,
+        borderWidth: 1,
+        borderColor: '#000'
+      });
+      ad.loadAssets([(location.hostname == '' || location.hostname == 'localhost' ? 'js/AMOLibrary.js' : 'https://ads.everesttech.net/ads/static/local/AMOLibrary.js')], function(assets){
+        // amo.registerAttribute("backgroundImage", "IMAGE", "assets/MGMPark_" + adWidth + "x" + adHeight + "_Default.png");
+        // amo.registerClick("clickUrl", "https://www.parkmgm.com/en/booking/room-booking.html#/step1");
+        setTimeout(function() {
+          ad.contentSetup({
+            cam: {
+              'backgroundImage': '!{picture_url}',
+              'productImage': '!{picture_url}',
+              'clickUrl': '!{product_url}'
+            },
+            feed: [
+              {
+                name: 'CBT Nuggets',
+                picture_url: 'assets/' + adWidth + 'x' + adHeight + '-Australia-Accelerate.png',
+                product_url: 'https://adobe.com/#CBTNuggets',
+              }
+            ],
+            staticData: {
+              // ref: 'ref.png'
+            },
+            beforeLoad: function(data){
+              // data.map(function(content){
+              //   content.ctaBtn = content.ctaBtnTextColor.split('^')[0];
+              //   content.ctaBtnHover = content.ctaBtnTextColor.split('^')[1];
+              // });
+              return data;
+            }
+          }, function(data){
+            var adData = data[0], adClickUrl = adData['clickUrl'];
+            ad.root.addEventListener("click", function(e) {
+              if('button' in e.target.dataset) { } else { amo.onDynAdClick(adData.feedData, "CLICK", adClickUrl); } //amo.onDynAdClick(adData.feedData, "CLICK", adClickUrl);//amo.onAdClick('clickUrl');
+            });
+            // ad.layers.description.style.opacity = 1;
+            // ad.layers.cta.style.opacity = 1;
+          });
+        }, 1);
+      });
+    </script>
+  </body>
+</html>

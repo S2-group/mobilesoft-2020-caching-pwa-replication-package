@@ -1,0 +1,6 @@
+/*<!--*/(function() {var qss="&cb="+Math.floor(99999999999*Math.random());try{qss+="&ref="+encodeURIComponent(document.referrer)}catch(e){}try{qss+="&sc_r="+encodeURIComponent(screen.width+"x"+screen.height)}catch(e){}try{qss+="&sc_d="+encodeURIComponent(screen.colorDepth.toString())}catch(e){}var callDis=function(e,t,n){function o(){callDisInternal(e,t,n)}"complete"===document.readyState?setTimeout(o):window.addEventListener?window.addEventListener("load",o,!1):window.attachEvent("onload",o)},disCalled=!1,callDisInternal=function(e,t,n){if(!disCalled){disCalled=!0;var o="//"+t+"/dis/dis.aspx",c=document.createElement("iframe");if(c.width=c.height="0",c.style.display="none",c.title="Criteo DIS iframe",void 0!==n&&""!==n&&(document.body.appendChild(c),null!=c.contentDocument))return c.contentDocument.open(),c.contentDocument.write(n),void c.contentDocument.close();c.src=(o+"?p="+e+qss).substring(0,2e3);var r=document.getElementById("criteoTagsContainer");r?(r.appendChild(c),"undefined"!=typeof criteo_q&&"function"==typeof criteo_q.removeLater&&criteo_q.removeLater(c)):criteo_q.push({event:"appendTag",element:c})}};
+callDis(6194, 'dis.us.criteo.com');
+})();
+
+
+/*-->*/

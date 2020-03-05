@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "version": "2.1.1",
+    "type": "manifest",
+    "manifestId": "icbu-v2",
+    "origins": [
+      "https://www.alibaba.com",
+      "https://sale.alibaba.com"
+    ],
+    "enableSw": true,
+    "enableReport": true,
+    "prefetchPages": [],
+    "enableSmartPreload": true,
+    "replacer": {},
+    "cookies": {
+      "country": "x_l"
+    },
+    "generatedTime": 1569500315922
+  },
+  "pages": [
+    {
+      "name": "de",
+      "url": "https://www.alibaba.com/product-detail/!",
+      "enabled": 1,
+      "namespace": "detail",
+      "id": "detail",
+      "configUrl": "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/detail/detail-prodB.js"
+    }
+  ],
+  "preloadRules": [
+    {
+      "match": "spm:a2700.7756200",
+      "preload": [
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/gfst9tcvhdh/d1jnikap59.js"
+      ],
+      "enable": 1,
+      "countries": [
+        "*"
+      ]
+    },
+    {
+      "match": "spm:a2700.8443394",
+      "preload": [
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/gfst9tcvhdh/d1jnikap59.js"
+      ],
+      "enable": 1,
+      "countries": [
+        "*"
+      ]
+    },
+    {
+      "match": "spm:a2700.icbu-homelogin",
+      "preload": [
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/gfst9tcvhdh/d1jnikap59.js"
+      ],
+      "enable": 1,
+      "countries": [
+        "*"
+      ]
+    },
+    {
+      "match": "spm:a2700.details",
+      "preload": [
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/xcyn0p5uxy/x5x3a8bbq8i.js"
+      ],
+      "enable": 1,
+      "countries": [
+        "*"
+      ]
+    },
+    {
+      "match": "spm:a2700.icbuShop",
+      "preload": [
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/xcyn0p5uxy/x5x3a8bbq8i.js"
+      ],
+      "enable": 1,
+      "countries": [
+        "*"
+      ]
+    },
+    {
+      "match": "spm:a2700.wholesale",
+      "preload": [
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/xcyn0p5uxy/x5x3a8bbq8i.js"
+      ],
+      "enable": 1,
+      "countries": [
+        "*"
+      ]
+    },
+    {
+      "match": "spm:a2700.7735675",
+      "preload": [
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/xcyn0p5uxy/x5x3a8bbq8i.js"
+      ],
+      "enable": 1,
+      "countries": [
+        "*"
+      ]
+    },
+    {
+      "match": "spm:a2700.7724838",
+      "preload": [
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/xcyn0p5uxy/x5x3a8bbq8i.js"
+      ],
+      "enable": 1,
+      "countries": [
+        "*"
+      ]
+    },
+    {
+      "match": "spm:a2700.8293689",
+      "preload": [
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/fkdazigrmmg/iyukxl7ysp.js",
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/ttcsgw1p849/d6fpaq00168.js",
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/hu6o37q4pdj/l5fzagfeja.js",
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/4djwlc6c5ou/7z68nx8g6ii.js",
+        "https://s.alicdn.com/@g/sc-assets/flasher-config/prefetch/4xrdkb71xlc/p7dwsbzvr2f.js"
+      ],
+      "countries": [
+        "0"
+      ],
+      "enable": 1
+    }
+  ]
+}

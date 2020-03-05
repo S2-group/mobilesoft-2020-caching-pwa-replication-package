@@ -1,0 +1,30 @@
+{
+  "name": "Petlove",
+  "short_name": "Petlove",
+  "start_url": "/?utm_source=pwa",
+  "display": "standalone",
+  "gcm_sender_id": "482941778795",
+  "background_color": "#5a1e82",
+  "theme_color": "#5a1e82",
+  "description": "O Maior Petshop Online do Brasil",
+  "icons": [{
+    "src": "https://static1.petlove.com.br/uploads/banner_image/image/4239/display_icon_512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }, {
+    "src": "https://static1.petlove.com.br/uploads/banner_image/image/4240/ic_launcher_48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://static1.petlove.com.br/uploads/banner_image/image/4241/ic_launcher_96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }],
+  "related_applications": [{
+    "platform": "web",
+    "url": "https://www.petlove.com.br"
+  }, {
+    "platform": "play",
+    "url": "https://play.google.com/store/apps/details?id=br.com.petlove.petlove"
+  }]
+}

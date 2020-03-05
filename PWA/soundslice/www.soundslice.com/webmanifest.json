@@ -1,0 +1,18 @@
+{
+    "lang": "en",
+    "name": "Soundslice",
+    "short_name": "Soundslice",
+    "start_url": "/",
+    "display": "minimal-ui",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://d2c3nvafyekx5z.cloudfront.net/images/logos/square-light-24052349c3a74e4eb74ea3afbfdbb124.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "https://d2c3nvafyekx5z.cloudfront.net/images/logos/square-light-11852e267c30000bf63ef60def1fef5e.svg"
+        }
+    ]
+}
