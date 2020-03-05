@@ -51,19 +51,36 @@ caching-pwa-replication-package
 ```
 data_analysis
     .
-    |--- pwa_visualizations		Plot figures
+    |--- pwa_visualizations/          Plot figures
     |
-    |--- all_cpu_cached_values.csv	values for CPU while using cache
+    |--- all_cpu_cached_values.csv    values for CPU while using cache
     |
-    |--- all_cpu_nocached_values.csv	values for CPU while not using caching
+    |--- all_cpu_nocached_values.csv  values for CPU while not using caching
     |
-    |--- all_data.csv 			entire dataset
+    |--- all_data.csv                 entire dataset
     |
-    |--- all_pwa_load_times.csv		values for PWA load times	
+    |--- all_pwa_load_times.csv       values for PWA load times	
     |
-    |--- main.R				R script for plotting and assesing the dataset
+    |--- main.R                       R script for plotting and assesing the dataset
     |
-    |--- main_recent.R			slightly updated main.R	
+    |--- main_recent.R                slightly updated main.R	
+```
+
+## Experiment Automation
+
+```
+automate_experiments
+    .	
+    |
+    |--- Makefile                     Makefile to automate experiment execution
+    |
+    |--- counter.txt                  helper for experiment execution
+    |
+    |--- filter_collect_results.py    filter experiment results
+    |
+    |--- pwa-names.txt                helper for experiment execution
+    |
+    |--- pwa-output-file-names.txt    helper for experiment execution
 ```
 
 ## License
