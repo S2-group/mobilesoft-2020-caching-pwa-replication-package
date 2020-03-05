@@ -15,13 +15,13 @@ The full dataset including raw data, mining scripts, and analysis R scripts prod
 If the dataset is helping your research, consider to cite it is as follows, thanks!
 ```
 @inproceedings{MOBILESoft_Caching_PWA_2020,
-  title={{valuating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps}},
+  title={{Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps}},
   author={Ivano Malavolta and Katerina Chinnappan and Lukas Jasmontas and Sarthak Gupta and Kaveh Ali Karam Soltany},
   booktitle = {7th IEEE/ACM International Conference on Mobile Software Engineering and Systems 2020},
   year = {2020},
   pages = {to appear},
   numpages = {10},
-  url = {to appear}
+  url = {http://www.ivanomalavolta.com/files/papers/MOBILESoft_Caching_PWA_2020}
 }
 ```
 
