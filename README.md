@@ -32,23 +32,23 @@ This replication package is structured as follows:
 ```
 caching-pwa-replication-package
     .
-    |--- PWA/       				The extracted PWAs downloaded via a Google Chrome Extension - Save All Resources.
+    |--- PWA/       			The extracted PWAs downloaded via a Google Chrome Extension - Save All Resources.
     |
     |--- R-scripts/         		The R scripts for plotting and assesing the extracted data (see below).
     |
-    |--- android-runner/   			Android-runner framework to execute experiments.
+    |--- android-runner/   		Android-runner framework to execute experiments.
     |
     |--- final_experiment_output	Data from all 20 experiments
     |
-    |--- raw_PWA					RAW data of PWAs (.zip)	
+    |--- raw_PWA			RAW data of PWAs (.zip)	
     |
-    |--- Makefile 					Makefile to automate experiment execution
+    |--- Makefile 			Makefile to automate experiment execution
     |
-    |--- counter.txt				helper for experiment execution
+    |--- counter.txt			helper for experiment execution
     |
     |--- filter_collect_results.py	filter experiment results
     |
-    |--- pwa-names.txt				 helper for experiment execution
+    |--- pwa-names.txt			helper for experiment execution
     |
     |--- pwa-output-file-names.txt	helper for experiment execution
 ```
@@ -58,19 +58,19 @@ caching-pwa-replication-package
 ```
 R_scripts
     .
-	|--- pwa_visualizations				Plot figures
+    |--- pwa_visualizations		Plot figures
     |
-    |--- all_cpu_cached_values.csv		values for CPU while using cache
+    |--- all_cpu_cached_values.csv	values for CPU while using cache
     |
     |--- all_cpu_nocached_values.csv	values for CPU while not using caching
     |
-    |--- all_data.csv 					entire dataset
+    |--- all_data.csv 			entire dataset
     |
-    |--- all_pwa_load_times.csv			values for PWA load times	
+    |--- all_pwa_load_times.csv		values for PWA load times	
     |
-    |--- main.R							R script for plotting and assesing the dataset
+    |--- main.R				R script for plotting and assesing the dataset
     |
-    |--- main_recent.R					slightly updated main.R	
+    |--- main_recent.R			slightly updated main.R	
 ```
 
 ## License
