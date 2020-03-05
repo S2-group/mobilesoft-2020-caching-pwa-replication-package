@@ -32,31 +32,23 @@ This replication package is structured as follows:
 ```
 caching-pwa-replication-package
     .
-    |--- PWA/       			The extracted PWAs downloaded via a Google Chrome Extension - Save All Resources.
+    |--- extracted_PWA/       			The extracted PWAs downloaded via a Google Chrome Extension - Save All Resources.
     |
-    |--- R-scripts/         		The R scripts for plotting and assesing the extracted data (see below).
+    |--- data_analysis/         		The R scripts for plotting and assesing the extracted data (see below).
     |
-    |--- android-runner/   		Android-runner framework to execute experiments.
+    |--- android-runner/   		      Android-runner framework to execute experiments.
     |
-    |--- final_experiment_output	Data from all 20 experiments
+    |--- final_experiment_output	  Data from all 20 experiments
     |
-    |--- raw_PWA			RAW data of PWAs (.zip)	
+    |--- raw_PWA			              RAW data of PWAs (.zip)	
     |
-    |--- Makefile 			Makefile to automate experiment execution
-    |
-    |--- counter.txt			helper for experiment execution
-    |
-    |--- filter_collect_results.py	filter experiment results
-    |
-    |--- pwa-names.txt			helper for experiment execution
-    |
-    |--- pwa-output-file-names.txt	helper for experiment execution
+    |--- automate_experiment 			  Scripts necessary to automate experiments
 ```
 
 ## Data analysis
 
 ```
-R_scripts
+data_analysis
     .
     |--- pwa_visualizations		Plot figures
     |
