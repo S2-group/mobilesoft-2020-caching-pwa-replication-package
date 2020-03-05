@@ -58,7 +58,7 @@ caching-pwa-replication-package
 ```
 R_scripts
     .
-	    |--- pwa_visualizations			Plot figures
+	|--- pwa_visualizations				Plot figures
     |
     |--- all_cpu_cached_values.csv		values for CPU while using cache
     |
