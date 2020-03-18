@@ -20,8 +20,7 @@ If this study is helping your research, consider to cite it is as follows, thank
   booktitle = {7th IEEE/ACM International Conference on Mobile Software Engineering and Systems 2020},
   year = {2020},
   pages = {to appear},
-  numpages = {10},
-  url = {http://www.ivanomalavolta.com/files/papers/MOBILESoft_Caching_PWA_2020}
+  url = {http://www.ivanomalavolta.com/files/papers/MOBILESoft_Caching_PWA_2020.pdf}
 }
 ```
 
