@@ -2,6 +2,8 @@
 
 This repository contains the replication package and dataset of the paper published at MOBILESoft 2020 with the title **Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps**
 
+The full dataset including raw data, mining scripts, and analysis R scripts produced during the study are available below.
+
 This study has been designed, developed, and reported by the following investigators:
 - [Ivano Malavolta](http://www.ivanomalavolta.com/)  (Vrije Universiteit Amsterdam)
 - Katerina Chinnappan (Vrije Universiteit Amsterdam)
@@ -9,17 +11,16 @@ This study has been designed, developed, and reported by the following investiga
 - Sarthak Gupta (Vrije Universiteit Amsterdam)
 - Kaveh Ali Karam Soltany (Vrije Universiteit Amsterdam)
 
-The full dataset including raw data, mining scripts, and analysis R scripts produced during the study are available below.
-
 ## How to cite this study
 If this study is helping your research, consider to cite it is as follows, thanks!
 ```
 @inproceedings{MOBILESoft_Caching_PWA_2020,
   title={{Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps}},
   author={Ivano Malavolta and Katerina Chinnappan and Lukas Jasmontas and Sarthak Gupta and Kaveh Ali Karam Soltany},
-  booktitle = {7th IEEE/ACM International Conference on Mobile Software Engineering and Systems 2020},
+  booktitle = {Proceedings of the IEEE/ACM 7th International Conference on Mobile Software Engineering and Systems},
   year = {2020},
-  pages = {to appear},
+  pages = {109--119},
+  doi = {10.1145/3387905.3388593},
   url = {http://www.ivanomalavolta.com/files/papers/MOBILESoft_Caching_PWA_2020.pdf}
 }
 ```
