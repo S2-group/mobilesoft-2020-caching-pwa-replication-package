@@ -2,6 +2,8 @@
 
 This repository contains the replication package and dataset of the paper published at MOBILESoft 2020 with the title **Evaluating the Impact of Caching on the Energy Consumption and Performance of Progressive Web Apps**
 
+[![Teaser video about the study](http://img.youtube.com/vi/pxX5Vn-sK_U/0.jpg)](http://www.youtube.com/watch?v=pxX5Vn-sK_U "Teaser video about the study")
+
 The full dataset including raw data, mining scripts, and analysis R scripts produced during the study are available below.
 
 This study has been designed, developed, and reported by the following investigators:
